@@ -406,6 +406,7 @@ a:hover{text-decoration:none !important;}
     width: 90%;
     margin-top: .266667rem;
     border-bottom: .026667rem solid #ececec;
+    display: flex;
 }
 .enter_vercodecontent{
     width: 90%;
@@ -418,6 +419,7 @@ a:hover{text-decoration:none !important;}
     font-size: .426667rem;
     color: #999999;
     height: .8rem;
+    display: flex;
 }
 .enter_vercode{
     width: 5.106667rem;
