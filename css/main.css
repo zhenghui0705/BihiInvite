@@ -1,0 +1,505 @@
+body {
+    position: relative;
+    width: 100%;
+    background: url('../images/bg.jpg') no-repeat center center;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-color: #cccccc;
+    overflow: hidden;
+}
+input{border: none}
+a:hover{text-decoration:none !important;}
+/* logo */
+.logo{
+    margin: 0 .4rem;
+    height: 1.333333rem;
+    position: relative;
+}
+.logo_img{
+    margin-top: .266667rem;
+    height: .64rem;
+    width: 3.693333rem;
+}
+.live_img{
+    position: absolute;
+    right: 0;
+    width: .533333rem;
+    height: 1.626667rem;
+}
+/* content */
+.bihi_content{
+    width: 6.693333rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.bihi{
+    width: 1.253333rem;
+    height: 1.213333rem;
+}
+.bihi_info{
+    font-size: .426667rem;
+    margin-left: .133333rem;
+    color: #fff;
+}
+.login_content{
+    overflow: hidden;
+}
+.logo_text{
+    text-align: center;
+    font-size: .8rem;
+    letter-spacing: .053333rem;
+    color: #fff;
+    text-shadow: #d47979 0.1em 0.1em 0.2em;
+    font-weight: 700;
+}
+.logo_reward{
+    width: 5.786667rem;
+    height: .813333rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: .24rem;
+}
+.reward_a{
+    font-size: .4rem;
+    color: #fff;
+    display: block;
+    width: 2.333333rem;
+    height: .733333rem;
+    background: #fbbc00;
+    line-height: .733333rem;
+    text-align: center;
+    border-top-left-radius:2em;
+    border-bottom-left-radius:2em;
+}
+.reward_b{
+    font-size: .4rem;
+    color: #fff;
+    width: 3.373333rem;
+    height: .733333rem;
+    background: #febf01;
+    line-height: .733333rem;
+    text-align: center;
+    border-top-right-radius:2em;
+    border-bottom-right-radius:2em;
+    margin-bottom: .133333rem;
+    margin-left: .133333rem;
+}
+/* 公测时间 */
+.reward_time{
+    text-align: center;
+    font-size: .32rem;
+    color: #fff;
+    width: 2.946667rem;
+    height: .506667rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: .32rem;
+    background: #fa6532;
+    border-radius: .4rem;
+}
+/* 账号注册 */
+.invite_mail{
+    width: 7.76rem;
+    margin:  5.786667rem auto 1.093333rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.mini_logo{
+    width: .533333rem;
+    height: .533333rem;
+}
+.firend{
+    font-size: .346667rem;
+    color: #fff;
+
+}
+/* 输入邮箱 */
+.enter_mail{
+   text-align: center;
+   margin-top: .4rem;
+}
+.input_mail{
+    width: 6.933333rem;
+    height: .8rem;
+    color: #707070;
+    font-size: .32rem;
+    padding: 0 .4rem;
+    border-radius: .4rem;
+    border: none;
+}
+/* 立即注册 */
+.sign_now{
+    text-align: center;
+    margin-top: .666667rem;
+}
+.p1{
+    color: #fff;
+    font-size: .373333rem;
+    margin-top: .533333rem;
+}
+.p2{
+    color: #fff;
+    font-size: .32rem;
+    margin-top: .32rem;
+}
+/* bihi介绍 */
+.section{
+    margin: 0 auto;
+    position: relative;
+    width: 9.6rem;
+}
+.content_section{
+    margin: .573333rem auto 0;
+    background: url('../images/content_1.png') no-repeat center center;
+    background-size: 9.6rem 7.106667rem;
+    width: 9.6rem;
+    height: 7.106667rem;
+    overflow: hidden;
+}
+.content_section:nth-child(2){
+    margin: .133333rem auto 0;
+    background: url('../images/content_2.png') no-repeat center center;
+    background-size: 9.6rem 7.106667rem;
+    width: 9.093333rem;
+    border-radius: .266667rem;
+}
+.content_section:nth-child(3){
+    margin: .133333rem auto 0;
+    background: url('../images/content_3.png') no-repeat center center;
+    background-size: 9.6rem 7.106667rem;
+    width: 9.093333rem;
+    border-radius: .266667rem;
+}
+.bihi_title{
+    margin-top: .666667rem;
+    text-align: center;
+    color: #f13704;
+    font-size: .426667rem;
+}
+.bihi_text1{
+    max-width: 7.973333rem;
+    margin: 3.266667rem auto 0;
+    text-align: left;
+    color: #ff5729;
+    font-size: .373333rem;
+}
+.bihi_text2{
+    max-width: 7.973333rem;
+    margin: 3.813333rem auto 0;
+    text-align: left;
+    color: #ff5729;
+    font-size: .373333rem;
+}
+.bihi_text3{
+    max-width: 7.973333rem;
+    margin: 3.293333rem auto 0;
+    text-align: left;
+    color: #ff5729;
+    font-size: .373333rem;
+}
+/* 每个介绍下面的线 */
+.bihi_border1{
+    width: 8.773333rem;
+    height: .96rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 6.65rem;
+}
+.bihi_border2{
+    width: 8.773333rem;
+    height: .96rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 13.9rem;
+}
+/* 活动规则 */
+.footer{
+    width: 9.04rem;
+    margin: .266667rem auto 0;
+    height: 10.666667rem;
+    background: url('../images/footer.png') no-repeat center center;
+    background-size: 9.093333rem 10.76rem;
+    border-radius: .106667rem;
+    margin-bottom: 1.44rem;
+    overflow: hidden;
+}
+.rule_title{
+    margin-top: .6rem;
+    text-align: center;
+    font-size: .426667rem;
+    color: #f2491a;
+}
+.rule_time{
+    width: 8rem;
+    height: .8rem;
+    background: #fa6632;
+    line-height: .8rem;
+    text-align: center;
+    margin: .48rem auto 0;
+    border-radius: .113333rem;
+    font-size: .373333rem;
+    color: #fff;
+}
+.rule_content{
+    margin: .483333rem .533333rem 0;
+    color: #ff5729;
+    font-size: .373333rem;
+}
+.rule_info{
+    line-height: .66rem;
+}
+.draw_now{
+    display: block;
+    width: 4rem;
+    height: 1.066667rem;
+    background: #ffc002;
+    margin: 0 auto;
+    line-height: 1.066667rem;
+    border-radius: .533333rem;
+    font-size: .426667rem;
+    color: #fff;
+    box-shadow: rgba(147,0,0,0.1) .133333rem .133333rem .133333rem;
+}
+.my-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    font-size: 0;
+    text-align: center;
+    transition: all 200ms;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.my-popup.nofixed {
+    position: absolute;
+}
+
+.my-popup.show-opacity {
+    opacity: 1;
+}
+
+.my-popup.close-opacity {
+    opacity: 0;
+}
+
+.my-popup.show-top {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.my-popup.close-top {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.my-popup.show-right {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.my-popup.close-right {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.my-popup.show-bottom {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.my-popup.close-bottom {
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.my-popup.show-left {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.my-popup.close-left {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.my-popup::after {
+    content: '';
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*背景*/
+
+.my-popup .my-popup-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.5;
+}
+
+/*内容*/
+
+.my-popup .popup-content {
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+    vertical-align: middle;
+    padding: .133333rem;
+    width: 8rem;
+    height: 8.666667rem;
+    border-radius: .213333rem;
+    background: #fff;
+    font-size: .186667rem;
+}
+
+.my-popup .popup-content2 {
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+    vertical-align: middle;
+    padding: .133333rem;
+    width: 8rem;
+    height: 8.666667rem;
+    border-radius: .213333rem;
+    background: #fff;
+    font-size: .186667rem;
+}
+/* 弹窗标题 */
+.off_img{
+    width: .52rem;
+    height: .52rem;
+    position: absolute;
+    top: .266667rem;
+    right: .4rem;
+}
+.msg {
+    font-size: .506667rem;
+    color: #555555;
+    margin-top: .4rem;
+}
+.modal1 {
+    margin-top: .533333rem;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal2{
+    height: 9.866667rem !important;
+}
+.enter_content{
+    width: 90%;
+    margin-top: .266667rem;
+    border-bottom: .026667rem solid #ececec;
+}
+.enter_vercodecontent{
+    width: 90%;
+    margin-top: .266667rem;
+    border-bottom: .026667rem solid #ececec;
+    display: flex;
+}
+.enter_usermail{
+    width: 7.106667rem;
+    font-size: .426667rem;
+    color: #999999;
+    height: .8rem;
+}
+.enter_vercode{
+    width: 5.106667rem;
+    font-size: .426667rem;
+    color: #999999;
+    height: .8rem;
+    margin-left: .066667rem;
+}
+.get_code{
+    display: block;
+    width: 2.933333rem;
+    height: .666667rem;
+    border-radius: .4rem;
+    line-height: .666667rem;
+    background-color: #ffae00;
+    font-size: .346667rem;
+    color: #fff;
+}
+.enter_password{
+    width: 7.106667rem;
+    font-size: .426667rem;
+    color: #999999;
+    height: .8rem;
+}
+/* 立即领取 */
+.imme{
+    width: 7.066667rem;
+    height: 1.066667rem;
+    background-color: #ffae00;
+    border-radius: .4rem;
+    font-size: .426667rem;
+    color: #fff;
+    position: absolute;
+    bottom: .8rem;
+    left: 50%;
+    margin-left: -3.533333rem;
+    border: none;
+}
+/* modal2 */
+.modal2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal_img{
+    width: 5.066667rem;
+    height: 3.733333rem;
+    margin-top: .32rem;
+}
+.modal_info{
+    font-size: .373333rem;
+    color: #505050;
+    max-width: 6.266667rem;
+    text-align: left;
+}
+/* modal 按钮 */
+.modal_btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: .666667rem;
+}
+.invite_friends{
+    width: 7.066667rem;
+    height: 1.066667rem;
+    background: #ffae00;
+    text-align: center;
+    line-height: 1.066667rem;
+    background-color: #ffae00;
+    border-radius: .4rem;
+    font-size: .426667rem;
+    color: #fff;
+}
+.download_app{
+    width: 7.066667rem;
+    height: 1.066667rem;
+    background: #ffae00;
+    text-align: center;
+    line-height: 1.066667rem;
+    margin-top: .4rem;
+    background-color: #ffae00;
+    border-radius: .4rem;
+    font-size: .426667rem;
+    color: #fff;
+}
